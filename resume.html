@@ -1,84 +1,109 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="app.css">
-  </head>
-  <body>
 
-<ul id="navibar">
-  <li><a>Profile</a></li>
-  <li><a>Education</a></li>
-  <li><a>Skills</a></li>
-  <li><a>Projects</a></li>
-  <li><a>Work Experience</a></li>
-</ul>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="app.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
 
-    <h1>Profile</h1>
+<body>
+  <div id="body">
+    <div id="profile">
+      <div id="navibar">
+        <ul>
+          <li><a>Profile</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experiences">Work Experience</a></li>
+          <li><a href="Nhan Resume G - 0316.pdf" download>Download Resume</a></li>
+        </ul>
+      </div>
 
-    <div class="background-white">
+      <h1>Profile</h1>
+      <hr>
+      <br>
+      <br>
+      <br>
 
+      <div class="row">
 
-
+        <div class="info">
+          <h3>About me</h3>
+          <p>
+            Something for now
+          </p>
+        </div>
+        <div class="">
+          <img src="profile pic.jpg" width="500" style="border-radius: 50%">
+        </div>
+        <div class="info">
+        </div>
+      </div>
+      <div class="background-white">
+      </div>
     </div>
-
     <div id="objective" class="container">
-        <h3>Objective</h3>
-        <p>To shift my career into software development by integrating my experience with advanced business analytics and the scientific method to solve problems through code with detail, accuracy and efficiency.</p>
+      <h3>Objective</h3>
+      <p>To shift my career into software development by integrating my experience with advanced business analytics and the scientific method to solve problems through code with detail, accuracy and efficiency.</p>
     </div>
 
     <div id="education" class="container">
-        <h3>Education</h3>
-        <p>
-            <h4>Coder Camps: Full Stack .NET</h4>
-            <p>January 2017</p>
-            <h4>University of Cincinnati</h4>
-            <p>Bachelor of Science in Biology</p>
-            <p>2014</p>
-            <h4>The Ohio State University</h4>
-            <p>2009 - 2010</p>
-        </p>
+      <h3>Education</h3>
+      <p>
+        <h4>Coder Camps: Full Stack .NET</h4>
+        <p>January 2017</p>
+        <h4>University of Cincinnati</h4>
+        <p>Bachelor of Science in Biology</p>
+        <p>2014</p>
+        <h4>The Ohio State University</h4>
+        <p>2009 - 2010</p>
+      </p>
     </div>
 
     <div id="skills" class="container">
-        <h3>Skills Profile</h3>
-        <p>
-            <ul style="list-style: none">
-                <li>JavaScript</li>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>JQuery</li>
-                <li>Bootstrap</li>
-                <li>AngularJS</li>
-                <li>C#</li>
-                <li>ASP.NET</li>
-                <li>Working knowledge of Microsoft's .NET Framework</li>
-                <li>Visual Basic for Applications</li>
-                <li>Microsoft Visual Studio</li>
-                <li>ATOM Text Editor</li>
-                <li>TOAD Oracle Database</li>
-                <li>Linq</li>
-                <li>Bilingual in English and Vietnamese</li>
-                <li>Advanced in Microsoft Excel and Access</li>
-                <li>Competent in Adobe Photoshop</li>
-            </ul>
+      <h3>Skills Profile</h3>
+      <p>
+        <ul style="list-style: none">
+          <li>JavaScript</li>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>JQuery</li>
+          <li>Bootstrap</li>
+          <li>AngularJS</li>
+          <li>C#</li>
+          <li>ASP.NET</li>
+          <li>Working knowledge of Microsoft's .NET Framework</li>
+          <li>Visual Basic for Applications</li>
+          <li>Microsoft Visual Studio</li>
+          <li>ATOM Text Editor</li>
+          <li>TOAD Oracle Database</li>
+          <li>Linq</li>
+          <li>Bilingual in English and Vietnamese</li>
+          <li>Advanced in Microsoft Excel and Access</li>
+          <li>Competent in Adobe Photoshop</li>
+        </ul>
 
-        </p>
+      </p>
     </div>
 
     <div id="projects" class="container">
-        <h3>Projects</h3>
+      <h3>Projects</h3>
     </div>
 
     <div id="experiences" class="container">
-        <h3>Work Experience</h3>
+      <h3>Work Experience</h3>
     </div>
 
     <div id="certifications" class="container">
-        <h3>Certifications</h3>
-        <p>Environmental Health and Safety: OHSA/Lab Compliance Training</p>
+      <h3>Certifications</h3>
+      <p>Environmental Health and Safety: OHSA/Lab Compliance Training</p>
     </div>
+  </div>
+</body>
 
-  </body>
+<script src="scrolling.js"></script>
+
 </html>
