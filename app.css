@@ -1,0 +1,29 @@
+#navibar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: px;
+  background-color: #f1f1f1;
+  list-style: none;
+  position: fixed;
+  right: 0px;
+  margin-right: 40px;
+  top: 50%;
+}
+
+#navibar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#navibar li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#navibar li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
