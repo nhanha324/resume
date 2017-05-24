@@ -50,19 +50,26 @@ body, html {
 }
 
 .info {
-    width: 10vw;
-    justify-content: space-around;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-top: 25%;
 }
 
-/*.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10vw;
-}*/
+.row {
+    width: 50vw;
+
+}
+
+.picture{
+  width: 40vw;
+  padding-left: 30px;
+}
 
 #objective {
-    width: 10vw;
+    width: 40vw;
+    padding-left: 40px;
 }
 
 h1 {
