@@ -81,13 +81,13 @@ hr {
 }
 
 #profile {
-    height: 100vh;
+    height: 88vh;
     background-color: white;
     padding-top: 10px;
 }
 
 #education {
-    height: 100vh;
+    height: 85vh;
     background-color: white;
     padding-top: 20px;
 }
@@ -100,7 +100,7 @@ hr {
 }
 
 #skills {
-    height: 100vh;
+    height: 87vh;
     background-color: white;
     padding-top: 20px;
 }
@@ -115,13 +115,13 @@ hr {
 }
 
 #projects {
-    height: 100vh;
+    height: 87vh;
     background-color: white;
     padding-top: 20px;
 }
 
 #experiences {
-    height: 100vh;
+    height: 87vh;
     background-color: white;
     padding-top: 20px;
 }
