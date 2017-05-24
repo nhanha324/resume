@@ -47,6 +47,7 @@ body ul {
 
 body, html {
     height: 100%;
+    font-family: Garamond;
 }
 
 .info {
@@ -54,17 +55,16 @@ body, html {
     display: flex;
     justify-content: space-between;
     padding-left: 60px;
-    padding-top: 25%;
+    padding-top: 10%;
 }
 
 .row {
     width: 50vw;
-
 }
 
-.picture{
-  width: 40vw;
-  padding-left: 30px;
+.picture {
+    width: 40vw;
+    padding-left: 30px;
 }
 
 #objective {
@@ -74,6 +74,10 @@ body, html {
 
 h1 {
     text-align: center;
+}
+
+hr {
+    width: 75%;
 }
 
 #profile {
@@ -103,6 +107,11 @@ h1 {
 
 #skills ul {
     column-count: 2;
+    padding-top: 5%;
+}
+
+#skills ul li {
+    padding: 10px;
 }
 
 #projects {
@@ -121,4 +130,16 @@ h1 {
     height: 100vh;
     background-color: white;
     padding-top: 20px;
+}
+
+#content {
+    columns: 3;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.line {
+    border-left: 1px solid;
+    height: 25px;
 }
