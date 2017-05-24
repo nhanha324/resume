@@ -51,10 +51,7 @@ body, html {
 
 .info {
     width: 10vw;
-}
-
-#objective {
-    width: 10vw;
+    justify-content: space-around;
 }
 
 .row {
@@ -64,6 +61,10 @@ body, html {
     margin-top: 10vw;
 }
 
+#objective {
+    width: 10vw;
+}
+
 h1 {
     text-align: center;
 }
@@ -71,29 +72,46 @@ h1 {
 #profile {
     height: 100vh;
     background-color: white;
+    padding-top: 10px;
 }
 
 #education {
     height: 100vh;
     background-color: white;
+    padding-top: 20px;
+}
+
+#education p, h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #skills {
     height: 100vh;
     background-color: white;
+    padding-top: 20px;
+}
+
+#skills ul {
+    column-count: 2;
 }
 
 #projects {
     height: 100vh;
     background-color: white;
+    padding-top: 20px;
 }
 
 #experiences {
     height: 100vh;
     background-color: white;
+    padding-top: 20px;
 }
 
 #contact {
     height: 100vh;
     background-color: white;
+    padding-top: 20px;
 }
