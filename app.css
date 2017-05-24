@@ -54,12 +54,12 @@ body, html {
     justify-content: space-around;
 }
 
-.row {
+/*.row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10vw;
-}
+}*/
 
 #objective {
     width: 10vw;
