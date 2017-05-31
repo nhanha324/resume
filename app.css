@@ -1,8 +1,8 @@
 #navibar ul {
   list-style-type: none;
   margin: 0;
-  padding: 30px 10px 30px 10px;
-  background-color: #454545;
+  padding: 30px 0px 30px 0px;
+  background-color: #2D4140;
   list-style: none;
   position: fixed;
   right: 0px;
@@ -14,7 +14,7 @@
 #navibar li a {
   display: block;
   color: white;
-  padding: 20px;
+  padding: 20px 40px 20px 40px;
   text-decoration: none;
   border-radius: 10px
 }
@@ -25,13 +25,11 @@
 }
 
 #navibar li a:hover:not(.active) {
-  background-color: #BF548F;
+  background-color: #89BEC2;
   color: white;
 }
 
 #body {
-  margin-left: 20vw;
-  margin-right: 20vw;
   padding: 10px;
   color: black;
   font-family: bebas-neue, sans-serif;
@@ -54,13 +52,17 @@ body, html {
 .info {
   width: 40vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 16%;
   padding-top: 10%;
 }
 
 .row {
   width: 50vw;
+}
+
+.row h4 {
+  font-size: 40px;
 }
 
 .picture {
@@ -76,7 +78,7 @@ body, html {
 }
 
 .stars {
-  color: #BF548F;
+  color: #89BEC2;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -88,15 +90,22 @@ body, html {
 
 h1 {
   text-align: center;
+  color: #2D4140;
+  font-size: 40px;
 }
 
-h1, h2, h3, h4 {
-  color: #79A3D9;
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2, h3, h4 {
+  color: white;
 }
 
 hr {
-  width: 75%;
-  border-color: #D9C771;
+  width: 70%;
+  border-color: white;
 }
 
 #profile {
@@ -105,20 +114,42 @@ hr {
 }
 
 #education {
-  height: 85vh;
-  padding-top: 20px;
+  height: 87vh;
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-top: 2.5%;
+
 }
 
-#education p, h4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#education hr, h2{
+  width: 107%;
+  color: #2D4140;
+}
+
+#subeducation {
+  padding-top: 5%;
+  columns: 2;
+  padding-left: 12%
+}
+
+#years {
+  padding-top: 5%;
 }
 
 #skills {
   height: 87vh;
-  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-top: 2.5%;
+}
+
+#skills hr {
+  width: 107%;
+}
+
+#skills h2, .icons {
+color: #2D4140;
+
 }
 
 #skills ul {
@@ -130,19 +161,42 @@ hr {
   padding: 10px;
 }
 
+
+
 #projects {
   height: 87vh;
-  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-top: 2.5%;
+  background-color: #89BEC2;
+}
+
+#projects hr{
+  width: 107%;
+}
+
+#projects li{
+  color: white;
 }
 
 #experiences {
   height: 87vh;
   padding-top: 20px;
+  background-color: #89BEC2;
+  color: white;
 }
+
+#experiencebody {
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-top: 2.5%;
+}
+
 
 #contact {
   height: 100vh;
   padding-top: 20px;
+  background-color: #89BEC2;
 }
 
 #content {
