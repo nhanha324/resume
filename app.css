@@ -2,6 +2,13 @@
 Navibar Section
 */
 
+#navibar{
+  font-family: "bebas-neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  }
+
 #navibar ul {
   list-style-type: none;
   margin: 0;
@@ -13,6 +20,7 @@ Navibar Section
   margin-right: 5%;
   top: 5%;
   border-radius: 10px;
+
 }
 
 #navibar li a {
@@ -54,6 +62,7 @@ body ul {
 body, html {
   height: 100%;
   background-color: #F2F2F2;
+  font-size: 120%;
 }
 
 .info {
@@ -89,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "bebas-neue", sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 120%;
 }
 
 
@@ -245,6 +255,10 @@ CSS for Education
   color: #2D4140;
 }
 
+#education h4{
+  color: #2D4140;
+}
+
 
 /*
 CSS for Contact information
@@ -260,6 +274,9 @@ CSS for Contact information
   padding-top: 20px;
   background-color: #89BEC2;
   color: white;
+  font-family: "bebas-neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 #contact h2 {
@@ -267,12 +284,17 @@ CSS for Contact information
   padding-right: 10%;
 }
 
-#content {
+#content{
   display: flex;
   text-align: center;
   padding-top: 6%;
   padding-right: 25%;
   padding-left: 25%;
+  color: #2D4140;
+}
+
+#content a{
+  color: #2D4140;
 }
 
 #content .glyphicon {
