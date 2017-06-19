@@ -6,7 +6,7 @@ Navibar Section
   font-family: "bebas-neue", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 100%;
+  font-size: 110%;
 }
 
 .navbar-inverse {
@@ -120,6 +120,13 @@ body ul {
 body, html {
   height: 100%;
   background-color: #F2F2F2;
+<<<<<<< HEAD
+=======
+  font-size: 120%;
+  font-family: "bebas-neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+>>>>>>> cc3a381c814c82ff8412040f867b7c52930aadf0
 }
 
 .info {
@@ -153,7 +160,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "bebas-neue", sans-serif;
   font-style: normal;
   font-weight: 400;
+<<<<<<< HEAD
   font-size: 150%;
+=======
+>>>>>>> cc3a381c814c82ff8412040f867b7c52930aadf0
 }
 
 
@@ -170,10 +180,15 @@ CSS for Profile Section
 #profilesection h4 {
   color: #2D4140;
   text-align: center;
+  font-size: 250%;
 }
 
-#profile h1, hr {
+#profile h1 {
   color: #2D4140;
+}
+
+#profileheader{
+  font-size: 250%;
 }
 
 #picture {
@@ -208,7 +223,12 @@ CSS for Experiences
 }
 
 #experiences h2 {
-  padding-right: 10%
+  padding-right: 10%;
+  font-size: 150%;
+}
+
+#experiencebody h4{
+  font-size: 120%
 }
 
 #experiencebody {
