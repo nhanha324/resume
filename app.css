@@ -122,6 +122,11 @@ body, html {
   background-color: #F2F2F2;
 }
 
+p{
+  font-family: "athelas", serif;
+  font-size: 130%;
+}
+
 .info {
   width: 40vw;
   display: flex;
@@ -133,10 +138,18 @@ body, html {
 h1 {
   text-align: center;
   color: #2D4140;
+  font-size: 300%;
+  font-family: "bebas-neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 h2 {
   text-align: center;
+  font-family: "bebas-neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200%;
 }
 
 hr {
@@ -149,11 +162,11 @@ hr {
 Fonts for Headings
 */
 
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: "bebas-neue", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 150%;
+  font-size: 165%;
 }
 
 
@@ -186,13 +199,16 @@ CSS for Profile Section
 
 #profile {
   height: 88vh;
-  padding-top: 10px;
+  padding-top: 0.5%;
 }
 
 #profile hr {
   border-color: #2D4140;
 }
 
+.profilehead{
+  
+}
 
 /*
 CSS for Experiences
@@ -200,14 +216,14 @@ CSS for Experiences
 
 #experiences {
   height: 87vh;
-  padding-top: 20px;
+  padding-top: 0.5%;
   width: 100%;
   background-color: #89BEC2;
   color: white;
   box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-#experiences h2 {
+#experiences h1 {
   padding-right: 10%
 }
 
@@ -233,15 +249,19 @@ CSS for Projects
 }
 
 #projectsbody {
-  padding-top: 1%;
+  padding-top: 0%;
 }
 
 #projects hr {
   width: 107%;
 }
 
-#projects li, h2, h4 {
+#projects li, h1, h4 {
   color: white;
+}
+
+#projects h1{
+
 }
 
 
@@ -274,8 +294,12 @@ CSS for Skills
   border-color: #2D4140;
 }
 
-#skills h2, .icons {
+#skills h1, .icons {
   color: #2D4140;
+}
+
+#skills h1{
+
 }
 
 #skills ul {
@@ -300,7 +324,7 @@ CSS for Education
   text-align: center;
 }
 
-#education hr, h2 {
+#education hr, h1 {
   width: 107%;
   color: #2D4140;
   border-color: #2D4140;
@@ -313,6 +337,10 @@ CSS for Education
 
 #education h4 {
   color: #2D4140;
+}
+
+#education h1{
+  padding-right: 4%;
 }
 
 
@@ -330,15 +358,12 @@ CSS for Contact information
   padding-top: 20px;
   background-color: #89BEC2;
   color: white;
-  font-family: "bebas-neue", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-#contact h2 {
+#contact h1 {
   text-align: center;
-  padding-right: 10%;
+  padding-right: 15%;
+  color: white;
 }
 
 #content {
